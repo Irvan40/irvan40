@@ -1664,8 +1664,8 @@ pre code {
   color: #212529;
 }
 
-.table th,
-.table td {
+.table th.fit,
+.table td.fit {
   padding: 0.75rem;
   vertical-align: top;
   border-top: 1px solid #000000;
