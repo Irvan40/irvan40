@@ -1894,16 +1894,16 @@ pre code {
 .table-active,
 .table-active > th,
 .table-active > td {
-  background-color: #000000;
+  background-color: white;
 }
 
 .table-hover .table-active:hover {
-  background-color: #000000;
+  background-color: white;
 }
 
 .table-hover .table-active:hover > td,
 .table-hover .table-active:hover > th {
-  background-color: #000000;
+  background-color: white;
 }
 
 .table .thead-dark th {
