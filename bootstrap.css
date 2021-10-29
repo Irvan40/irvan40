@@ -545,7 +545,7 @@ pre code {
 .container-md,
 .container-lg,
 .container-xl {
-  width: 100%;
+  width: auto;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1945,7 +1945,7 @@ pre code {
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     display: block;
-    width: 100%;
+    width: auto;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -1957,7 +1957,7 @@ pre code {
 @media (max-width: 767.98px) {
   .table-responsive-md {
     display: block;
-    width: 100%;
+    width: auto;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -1969,7 +1969,7 @@ pre code {
 @media (max-width: 991.98px) {
   .table-responsive-lg {
     display: block;
-    width: 100%;
+    width: auto;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -1981,7 +1981,7 @@ pre code {
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
     display: block;
-    width: 100%;
+    width: auto;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -1992,7 +1992,7 @@ pre code {
 
 .table-responsive {
   display: block;
-  width: 100%;
+  width: auto;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -10234,8 +10234,8 @@ a.text-dark:hover, a.text-dark:focus {
   .table {
     border-collapse: collapse !important;
   }
-  .table td,
-  .table th {
+  .table td.fit,
+  .table th.fit {
     background-color: #fff !important;
   }
   .table-bordered th,
